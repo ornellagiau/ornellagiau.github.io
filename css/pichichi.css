@@ -3,23 +3,23 @@
    ========================================================================== */
 
 .page-template-page-fullsingle-me {
-  height: 100vh;
+  height: 70vh;
 }
 
     /* Menu */
             nav { margin:0 auto; padding:0px 0 0; height:50px; float:right;}
             nav ul { list-style:none; padding:0; margin: 0; height:50px; float:left;}
-            nav ul li { margin:0; padding:0 0 0 8px; float:left; font-family: "Roboto", sans-serif; letter-spacing: 3px; font-weight: 500; font-size: 0.83em; text-transform: uppercase;}
+            nav ul li { margin:0; padding:0 0 0 8px; float:left; font-family: "Roboto", sans-serif; letter-spacing: 3px; font-weight: 400; font-size: 0.83em; text-transform: uppercase;}
             nav ul li a { display:block; margin:0; padding:0px 10px; color:#333; text-decoration:none;}
-            nav ul li.active a, nav ul li a:hover {  background-color: #ffdf44; color:white;}
+            nav ul li.active a, nav ul li a:hover {  background-color: #ffdf44; color:black;}
 
 
     /* Menu */
             nav { margin:0 auto; padding:0px 0 0; height:50px; float:right;}
             nav ul { list-style:none; padding:0; margin: 0; height:50px; float:left;}
-            nav ul li { margin:0; padding:0 0 0 8px; float:left; font-family: "Roboto", sans-serif; letter-spacing: 3px; font-weight: 500; font-size: 0.83em; text-transform: uppercase;}
+            nav ul li { margin:0; padding:0 0 0 8px; float:left; font-family: "Roboto", sans-serif; letter-spacing: 3px; font-weight: 400; font-size: 0.83em; text-transform: uppercase;}
             nav ul li a { display:block; margin:0; padding:0px 10px; color:#333; text-decoration:none;}
-            nav ul li.active a, nav ul li a:hover {  background-color: #ffdf44; color:white;}
+            nav ul li.active a, nav ul li a:hover {  background-color: #ffdf44; color:black;}
 
 
 
@@ -1061,15 +1061,16 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 .cbp-af-header h3 {
 	text-transform: uppercase;
 	color: #333;
-	letter-spacing: 4px;
+	letter-spacing: 3px;
 	float: left;
 	margin: 0px;
 	font-family: 'Roboto Slab', serif;
+    font-size: 0.8em;
     font-weight: 400;
 	text-align: left;
 }
 
-nav ul li a { padding:0px 5px; }
+nav ul li a { padding:0px 2px; font-size: 0.9em; }
 
 
 /* Transitions and class for reduced height */
@@ -1143,19 +1144,21 @@ nav ul li a { padding:0px 5px; }
 }
 
 .cbp-af-header .cbp-af-inner {
-	width: 200px;
-	margin: 0 auto;
+	width: 500px;
+    margin: 0;
+    padding: 0;
 	text-align: center;
 }
 
 .cbp-af-header h3 {
 	text-transform: uppercase;
 	color: #333;
-	letter-spacing: 4px;
-	
-	margin: 0px;
+	letter-spacing: 3px;
+	float: none;
+	margin: auto;
 	font-family: 'Roboto Slab', serif;
-     font-weight: 400;
+    font-size: 0.8em;
+    font-weight: 400;
 	text-align: center;
 }
 nav { visibility: hidden;}
