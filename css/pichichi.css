@@ -9,9 +9,9 @@
     /* Menu */
             nav { margin:0 auto; padding:0px 0 0; height:50px; float:right;}
             nav ul { list-style:none; padding:0; margin: 0; height:50px; float:left;}
-            nav ul li { margin:0; padding:0 0 0 8px; float:left;}
-            nav ul li a { display:block; margin:0; padding:8px 20px; color:red; text-decoration:none;}
-            nav ul li.active a, #top-nav ul li a:hover { color:#f8dbdb;}
+            nav ul li { margin:0; padding:0 0 0 8px; float:left; font-family: "Roboto", sans-serif; letter-spacing: 3px; font-weight: 500; font-size: 0.83em; text-transform: uppercase;}
+            nav ul li a { display:block; margin:0; padding:0px 10px; color:#333; text-decoration:none;}
+            nav ul li.active a, nav ul li a:hover {  background-color: #ffdf44; color:white;}
 
 
 
