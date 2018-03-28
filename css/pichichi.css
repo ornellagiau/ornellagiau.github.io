@@ -1,3 +1,19 @@
+/* ==========================================================================
+   Added
+   ========================================================================== */
+
+.page-template-page-fullsingle-me {
+  height: 100vh;
+}
+
+    /* Menu */
+            nav { margin:0 auto; padding:0px 0 0; height:50px; float:right;}
+            nav ul { list-style:none; padding:0; margin: 0; height:50px; float:left;}
+            nav ul li { margin:0; padding:0 0 0 8px; float:left;}
+            nav ul li a { display:block; margin:0; padding:8px 20px; color:red; text-decoration:none;}
+            nav ul li.active a, #top-nav ul li a:hover { color:#f8dbdb;}
+
+
 
 @import url(http://weloveiconfonts.com/api/?family=zocial);
 
@@ -552,7 +568,7 @@ body {
 	left: 0px;
 	background: #FFF;
 	z-index: 10000;
-	height: 150px;
+	height: 50px;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
@@ -568,43 +584,31 @@ body {
 }
 
 
-.cbp-af-header h1,
-.cbp-af-header nav {
+.cbp-af-header h3{
+    float: left;
 	position: relative;
 }
 
  /* We just have one-lined elements, so we'll center the elements with the line-height set to the height of the header */
-.cbp-af-header h1, .cbp-af-header nav a  {
-	line-height: 150px;
+.cbp-af-header h3, .cbp-af-header nav a  {
+	line-height: 50px;
 }
 
-.cbp-af-header h1 {
+.cbp-af-header h3 {
 	text-transform: uppercase;
 	color: #333;
 	letter-spacing: 4px;
-	font-size: 3.5em;
 	margin: 0;
 	font-family: 'Roboto Slab', serif;
-	text-align: center;
+	text-align: left;
 }
 
-.cbp-af-header nav {
-	float: left;
-}
 
-.cbp-af-header nav a {
-	color: #aaa;
-	font-weight: 300;
-	margin: 0 0 0 30px;
-	font-size: 1.2em;
-}
 
-.cbp-af-header nav a:hover {
-	color: #333;
-}
+
 
 /* Transitions and class for reduced height */
-.cbp-af-header h1,
+.cbp-af-header h3,
 .cbp-af-header nav a {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -635,22 +639,17 @@ body {
 		width: 100%;
 	}
 
-	.cbp-af-header h1,
-	.cbp-af-header nav {
+	.cbp-af-header h3,{
 		display: block;
 		margin: 0 auto;
-		text-align: center;
-		float: none;
+		text-align: left;
+		float: left;
 	}
 
-	.cbp-af-header h1,
-	.cbp-af-header nav a {
-		line-height: 115px;
+	.cbp-af-header h3,{
+		line-height: 50px;
 	}
 
-	.cbp-af-header nav a {
-		margin: 0 10px;
-	}
 
 	.cbp-af-header.cbp-af-header-shrink h1,
 	.cbp-af-header.cbp-af-header-shrink nav a {
@@ -686,7 +685,6 @@ body {
 
 
 #intro {
-     height: 100vh;
 	padding-top: 150px;
 	margin: 70px;
 	line-height: 46px;
@@ -941,7 +939,6 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	#map {display: none;}
 	
 	#intro {
-         height: 100vh;
 	padding-top: 100px;
 	margin: 70px;
 	line-height: 46px;
@@ -971,20 +968,20 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	text-align: center;
 }
 
-.cbp-af-header h1 {
+.cbp-af-header h3 {
 	text-transform: uppercase;
 	color: #333;
 	letter-spacing: 4px;
-	font-size: 3.5em;
-	line-height: 125px;
+
+	line-height: 50px;
 	margin: 0px;
 	font-family: 'Roboto Slab', serif;
-	text-align: center;
+	text-align: left;
 }
 
 
 /* Transitions and class for reduced height */
-.cbp-af-header h1 {-webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s;}
+.cbp-af-header h3 {-webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s;}
 
 .cbp-af-header.cbp-af-header-shrink {height: 90px;}
 
@@ -1020,7 +1017,6 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	
 	
 	#intro {
-         height: 100vh;
 	padding-top: 100px;
 	margin: 70px;
 	line-height: 46px;
@@ -1051,19 +1047,19 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	text-align: center;
 }
 
-.cbp-af-header h1 {
+.cbp-af-header h3 {
 	text-transform: uppercase;
 	color: #333;
 	letter-spacing: 4px;
-	font-size: 3em;
+	
 	margin: 0px;
 	font-family: 'Roboto Slab', serif;
-	text-align: center;
+	text-align: left;
 }
 
 
 /* Transitions and class for reduced height */
-.cbp-af-header h1 {-webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s;}
+.cbp-af-header h3 {-webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s;}
 
 .cbp-af-header.cbp-af-header-shrink {height: 90px;}
 
@@ -1108,7 +1104,6 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	
 	
 	#intro {
-         height: 100vh;
 	padding-top: 90px;
 	margin: 52px;
 	line-height: 29px;
@@ -1139,19 +1134,19 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	text-align: center;
 }
 
-.cbp-af-header h1 {
+.cbp-af-header h3 {
 	text-transform: uppercase;
 	color: #333;
 	letter-spacing: 4px;
-	font-size: 2.5em;
+	
 	margin: 0px;
 	font-family: 'Roboto Slab', serif;
-	text-align: center;
+	text-align: left;
 }
 
 
 /* Transitions and class for reduced height */
-.cbp-af-header h1 {-webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s;}
+.cbp-af-header h3 {-webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s;}
 
 .cbp-af-header.cbp-af-header-shrink {height: 90px;}
 
@@ -1396,11 +1391,6 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 
 
 
-
-
-
-
-
 /* ==========================================================================
    Print styles
    ========================================================================== */
@@ -1470,4 +1460,6 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
     h3 {
         page-break-after: avoid;
     }
-}
+
+
+
