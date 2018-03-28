@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .page-template-page-fullsingle-me {
-  height: 70vh;
+  height: 50vh;
 }
 
     /* Menu */
@@ -715,7 +715,7 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 	position:relative;
-	background-color: #f1f1f1;
+	background-color: #fafafa;
     text-align: center;
     clear: both;
 }
