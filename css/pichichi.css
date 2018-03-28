@@ -686,6 +686,7 @@ body {
 
 
 #intro {
+     height: 100vh;
 	padding-top: 150px;
 	margin: 70px;
 	line-height: 46px;
@@ -698,7 +699,7 @@ body {
 #content {
 	line-height: 32px;
 	text-align: center;
-	height: 570px;
+	height: 600px;
 }
 
 
@@ -902,8 +903,8 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 @media screen and (max-width: 1190px) {
     .cbp-rfgrid li {
         width: 20%; /* Fallback */
-        width: -webkit-calc(100% / 5);
-        width: calc(100% / 5);
+        width: -webkit-calc(100% / 3);
+        width: calc(100% / 3);
     }
 	
 	#content {
@@ -927,8 +928,8 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 @media screen and (max-width: 945px) {
     .cbp-rfgrid li {
         width: 25%; /* Fallback */
-        width: -webkit-calc(100% / 4);
-        width: calc(100% / 4);
+        width: -webkit-calc(100% / 2);
+        width: calc(100% / 2);
     }
 	
 	#content {
@@ -940,6 +941,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	#map {display: none;}
 	
 	#intro {
+         height: 100vh;
 	padding-top: 100px;
 	margin: 70px;
 	line-height: 46px;
@@ -1004,8 +1006,8 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 @media screen and (max-width: 660px) {
     .cbp-rfgrid li {
         width: 33.3333333%; /* Fallback */
-        width: -webkit-calc(100% / 3);
-        width: calc(100% / 3);
+        width: -webkit-calc(100% / 1);
+        width: calc(100% / 1);
     }
 	
 	#content {
@@ -1018,6 +1020,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	
 	
 	#intro {
+         height: 100vh;
 	padding-top: 100px;
 	margin: 70px;
 	line-height: 46px;
@@ -1071,7 +1074,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 }
  
 @media screen and (max-width: 400px) {
-    .cbp-rfgrid li {width: 50%; /* Fallback */width: -webkit-calc(100% / 2);width: calc(100% / 2);
+    .cbp-rfgrid li {width: 100%; /* Fallback */width: -webkit-calc(100% / 1);width: calc(100% / 1);
     }
 	
 	#content {line-height: 32px;text-align: center;height: 710px;}
@@ -1105,6 +1108,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	
 	
 	#intro {
+         height: 100vh;
 	padding-top: 90px;
 	margin: 52px;
 	line-height: 29px;
