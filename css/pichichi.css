@@ -698,7 +698,7 @@ body {
 	line-height: 46px;
 	text-align: center;
 	font-size: 23px;
-	font-weight: 300;
+	font-weight: 700;
 }
 
 
@@ -952,7 +952,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	line-height: 46px;
 	text-align: center;
 	font-size: 23px;
-	font-weight: 300;
+	font-weight: 700;
 	}
 	
 	.cbp-af-header {
@@ -1031,7 +1031,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	line-height: 46px;
 	text-align: center;
 	font-size: 23px;
-	font-weight: 300;
+	font-weight: 700;
 	}
 
 	
@@ -1120,7 +1120,7 @@ nav ul li a { padding:0px 5px; }
 	line-height: 29px;
 	text-align: center;
 	font-size: 19px;
-	font-weight: 300;
+	font-weight: 700;
 	}
 	
 	
