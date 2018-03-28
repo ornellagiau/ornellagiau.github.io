@@ -608,6 +608,7 @@ body {
 	letter-spacing: 4px;
 	margin: 0;
 	font-family: 'Roboto Slab', serif;
+     font-weight: 400;
 	text-align: left;
 }
 
@@ -985,6 +986,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	line-height: 50px;
 	margin: 0px;
 	font-family: 'Roboto Slab', serif;
+     font-weight: 400;
 	text-align: left;
 }
 
@@ -1063,6 +1065,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	float: left;
 	margin: 0px;
 	font-family: 'Roboto Slab', serif;
+    font-weight: 400;
 	text-align: left;
 }
 
@@ -1152,6 +1155,7 @@ nav ul li a { padding:0px 5px; }
 	
 	margin: 0px;
 	font-family: 'Roboto Slab', serif;
+     font-weight: 400;
 	text-align: center;
 }
 nav { visibility: hidden;}
