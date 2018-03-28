@@ -625,12 +625,12 @@ body {
 }
 
 .cbp-af-header.cbp-af-header-shrink {
-	height: 90px;
+	height: 50px;
 }
 
 .cbp-af-header.cbp-af-header-shrink h1,
 .cbp-af-header.cbp-af-header-shrink nav a {
-	line-height: 90px;
+	/*line-height: 90px;*/
 }
 
 .cbp-af-header.cbp-af-header-shrink h1 {
@@ -638,7 +638,7 @@ body {
 }
 
 .cbp-af-header.cbp-af-header-shrink nav a {
-	font-size: 0.9em;
+	/*font-size: 0.9em;*/
 }
 
 /* Example Media Queries */
@@ -662,7 +662,7 @@ body {
 
 	.cbp-af-header.cbp-af-header-shrink h1,
 	.cbp-af-header.cbp-af-header-shrink nav a {
-		line-height: 45px;
+		/*line-height: 45px;*/
 	}
 
 	.cbp-af-header.cbp-af-header-shrink h1 {
@@ -670,7 +670,7 @@ body {
 	}
 
 	.cbp-af-header.cbp-af-header-shrink nav a {
-		font-size: 1em;
+		/*font-size: 1em;*/
 	}
 }
 
@@ -683,7 +683,7 @@ body {
 @media screen and (max-width: 24em) {
 	.cbp-af-header nav a,
 	.cbp-af-header.cbp-af-header-shrink nav a {
-		line-height: 1;
+		/*line-height: 1;*/
 	}
 }
 
@@ -706,41 +706,30 @@ body {
 #content {
 	line-height: 32px;
 	text-align: center;
-	height: 600px;
+    margin-bottom: 40px;
 }
 
 
-#contactwrapper {
+#about {
 	width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 	position:relative;
-	border-bottom: 2px solid #EEE;
-	border-top: 2px solid #EEE;
-	background-color: #F9F9F9;
-	height: 600px;
+	background-color: #f1f1f1;
+    text-align: center;
+    clear: both;
 }
 
+#about-container {
 
-#contact {
-	line-height: 32px;
-	height: 500px;
-	padding-top: 83px;
-	margin-bottom: 70px;
-	padding-left: 13%;
-	background-color: #F9F9F9;
-	float: left;
-}
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
 
-
-#map {
-	float: left;
-	height: 425px;
-	width: 425px;
-	margin-top: 83px;
-	margin-left: 150px;
-	line-height: 32px;
-	background-image: url('../images/map.png');	
-}
-
+  }  
+  #about-container img{
+    margin: 0;
+    }
 
 
 footer {
@@ -994,7 +983,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 /* Transitions and class for reduced height */
 .cbp-af-header h3 {-webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s;}
 
-.cbp-af-header.cbp-af-header-shrink {height: 90px;}
+.cbp-af-header.cbp-af-header-shrink {height: 50px;}
 
 .cbp-af-header.cbp-af-header-shrink h1 {line-height: 90px;}
 
@@ -1024,7 +1013,16 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	height: 770px;
 	}
 	
-	#map {display: none;}
+	#about-container {
+
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+
+  }  
+  #about-container img{
+    margin: 0;
+    }
 	
 	
 	#intro {
@@ -1076,7 +1074,7 @@ nav ul li a { padding:0px 2px; font-size: 0.9em; }
 /* Transitions and class for reduced height */
 .cbp-af-header h3 {-webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s;}
 
-.cbp-af-header.cbp-af-header-shrink {height: 90px;}
+.cbp-af-header.cbp-af-header-shrink {height: 50px;}
 
 .cbp-af-header.cbp-af-header-shrink h1 {line-height: 90px;}
 
@@ -1144,7 +1142,7 @@ nav ul li a { padding:0px 2px; font-size: 0.9em; }
 }
 
 .cbp-af-header .cbp-af-inner {
-	width: 500px;
+	width: 100%;
     margin: 0;
     padding: 0;
 	text-align: center;
@@ -1163,11 +1161,22 @@ nav ul li a { padding:0px 2px; font-size: 0.9em; }
 }
 nav { visibility: hidden;}
 
+#about-container {
+
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+
+  }  
+  #about-container img{
+    margin: 0;
+    }
+
 
 /* Transitions and class for reduced height */
 .cbp-af-header h3 {-webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s;}
 
-.cbp-af-header.cbp-af-header-shrink {height: 90px;}
+.cbp-af-header.cbp-af-header-shrink {height: 50px;}
 
 .cbp-af-header.cbp-af-header-shrink h1 {line-height: 90px;}
 
