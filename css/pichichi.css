@@ -159,6 +159,7 @@ a:hover {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    line-height: 1.25;
 }
 
 h2 {
@@ -581,7 +582,6 @@ body {
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
 	transition: height 0.3s;
-	border-bottom: 2px solid #EEE;
 }
 
 .cbp-af-header .cbp-af-inner {
