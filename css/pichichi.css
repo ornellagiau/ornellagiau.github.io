@@ -14,6 +14,14 @@
             nav ul li.active a, nav ul li a:hover {  background-color: #ffdf44; color:white;}
 
 
+    /* Menu */
+            nav { margin:0 auto; padding:0px 0 0; height:50px; float:right;}
+            nav ul { list-style:none; padding:0; margin: 0; height:50px; float:left;}
+            nav ul li { margin:0; padding:0 0 0 8px; float:left; font-family: "Roboto", sans-serif; letter-spacing: 3px; font-weight: 500; font-size: 0.83em; text-transform: uppercase;}
+            nav ul li a { display:block; margin:0; padding:0px 10px; color:#333; text-decoration:none;}
+            nav ul li.active a, nav ul li a:hover {  background-color: #ffdf44; color:white;}
+
+
 
 @import url(http://weloveiconfonts.com/api/?family=zocial);
 
@@ -954,7 +962,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	left: 0px;
 	background: #FFF;
 	z-index: 10000;
-	height: 130px;
+	height: 50px;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
@@ -963,15 +971,16 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 }
 
 .cbp-af-header .cbp-af-inner {
-	width: 270px;
+    width: 90%;
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 }
 
 .cbp-af-header h3 {
 	text-transform: uppercase;
 	color: #333;
 	letter-spacing: 4px;
+    float: left;
 
 	line-height: 50px;
 	margin: 0px;
@@ -1033,7 +1042,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	left: 0px;
 	background: #FFF;
 	z-index: 10000;
-	height: 120px;
+	height: 50px;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
@@ -1042,7 +1051,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 }
 
 .cbp-af-header .cbp-af-inner {
-	width: 240px;
+	width: 90%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -1051,11 +1060,13 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	text-transform: uppercase;
 	color: #333;
 	letter-spacing: 4px;
-	
+	float: left;
 	margin: 0px;
 	font-family: 'Roboto Slab', serif;
 	text-align: left;
 }
+
+nav ul li a { padding:0px 5px; }
 
 
 /* Transitions and class for reduced height */
@@ -1069,7 +1080,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	
 }
  
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .cbp-rfgrid li {width: 100%; /* Fallback */width: -webkit-calc(100% / 1);width: calc(100% / 1);
     }
 	
@@ -1120,7 +1131,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	left: 0px;
 	background: #FFF;
 	z-index: 10000;
-	height: 110px;
+	height: 50px;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
@@ -1141,8 +1152,9 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	
 	margin: 0px;
 	font-family: 'Roboto Slab', serif;
-	text-align: left;
+	text-align: center;
 }
+nav { visibility: hidden;}
 
 
 /* Transitions and class for reduced height */
