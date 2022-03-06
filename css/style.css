@@ -133,6 +133,23 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 	outline: 0;
 
 }
+.grid-lod li * {
+	padding: 10px;
+}
+
+@media screen and  (min-width: 991px) {
+	.grid-lod li {
+		display: flex !important;
+		align-items: center;
+    	gap: 20px;
+		padding-bottom: 20px;
+	}
+
+	.img-fix {
+		width: 30%;
+	}
+}
+
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, img, main {
 
