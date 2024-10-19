@@ -31,6 +31,9 @@
 	
 
 */
+body {
+	background-color: white !important;
+}
 
 #intro { display: flex; flex-direction: row;   color: #000;  align-items: center; gap: 100px; justify-content: space-between; padding-bottom:50px ;
 	@media screen and  (max-width: 700px) {
@@ -56,6 +59,12 @@
 		float: none;
 	}
 }
+
+.row {
+	border-bottom: 2px solid #000;
+	padding-bottom: 20px;
+}
+
 
 .row h3 {
 	display: flex;
@@ -300,7 +309,7 @@ header[role="header"] nav #menu-button.open span:nth-child(3) {top: 10px;
 
 /*===== main ===*/
 
-main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { padding-bottom:90px}
+main[role="main-home-wrapper"],main[role="main-inner-wrapper"] { padding-bottom:30px}
 
 main[role="main-home-wrapper"] article[role="pge-title-content"],main[role="main-inner-wrapper"] article[role="pge-title-content"]{ padding-left:41px}
 
@@ -314,7 +323,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] p,main[role="ma
 
 /*===== footer ===*/
 
-footer[role="footer"]{ background-color:#FFF; padding-top:100px; padding-bottom:77px}
+footer[role="footer"]{ background-color:#FFF; padding-top:50px; padding-bottom:77px}
 
 footer[role="footer"] > h1 a{ margin:0 auto; display:block; max-width:66px;}
 
