@@ -115,7 +115,7 @@ button, html input[type="button"],/* 1 */ input[type="reset"], input[type="submi
 
 	cursor: pointer;
 
- *overflow:visible;
+ overflow:visible;
 
 }
 
@@ -178,9 +178,9 @@ audio, canvas, video {
 
 	display: inline-block;
 
- *display:inline;
+ display:inline;
 
- *zoom:1
+ zoom:1;
 
 }
 
