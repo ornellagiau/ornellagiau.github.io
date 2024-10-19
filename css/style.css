@@ -35,7 +35,7 @@
 #intro { display: flex; flex-direction: row;   color: #000;  align-items: center; gap: 100px; justify-content: space-between; padding-bottom:100px ;
 	@media screen and  (max-width: 700px) {
 		flex-direction: column; 
-		gap: 30px;
+		gap: 10px;
 	}
 }
 #intro img { width: 30%;  @media screen and  (max-width: 700px) {
@@ -50,7 +50,11 @@
 	@media screen and  (max-width: 1000px) {
 		font-size: 24px; text-align: left; 
 }}
-#intro ul {float: left; padding: 20px 0;}
+#intro ul {float: left; padding: 20px 0;
+	@media screen and  (max-width: 700px) {
+		float: none;
+	}
+}
 
 #about {
 	width: 100%;
