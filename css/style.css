@@ -60,6 +60,8 @@ body {
 	}
 }
 
+#intro a{background-color:#ffdf44 ; color: #000; padding: 0 4px;}
+
 .row {
 	border-bottom: 2px solid #000;
 	padding-bottom: 20px;
